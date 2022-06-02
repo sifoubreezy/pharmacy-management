@@ -1,0 +1,39 @@
+
+.zoom:hover
+{
+    transform: scale(4);
+    position: absolute;
+    z-index: 1000;
+    transition: transform .4s ease-in;
+}
+
+.zoom
+{
+    transition: transform .4s ease-out;
+}
+
+.turbolinks-progress-bar {
+    height: 5px;
+    background-color: mediumseagreen;
+}
+.link{
+    text-decoration: none!important;
+}
+
+.notseen{
+    font-weight: bolder;
+    font-size: 110%;
+}
+
+.home{
+    display: grid;
+    grid-template-columns: 20% auto;
+    grid-template-areas: 'ico text';
+}
+
+.ico{
+    grid-area: 'ico';
+}
+.t{
+    grid-area: 'text';
+}

@@ -1,0 +1,17 @@
+Install Laravel Datatables Package
+  composer require yajra/laravel-datatables-oracle:"~8.0"
+  Next, Add Datatables Service Provider and Facade into config/app.php
+
+...
+        Yajra\DataTables\DataTablesServiceProvider::class,
+...
+
+and
+
+...
+        'Datatables' => Yajra\DataTables\Facades\DataTables::class,
+...
+
+Next, publish the configuration file.
+
+php artisan vendor:publish
